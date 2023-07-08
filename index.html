@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Accueil</title>
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,300;8..144,500;8..144,700;8..144,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="nav-icon" aria-label="homepage" aria-current="page">
+        <img src="chat.svg" alt="chat icon" />
+        <span>Portfolio</span>
+      </a>
+
+      <div class="main-navlinks">
+        <button
+          type="button"
+          class="hamburger"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navlinks-container">
+          <a href="#" aria-current="page">Accueil</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">À propos</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="nav-authentication">
+        <a href="#" class="user-toggler" aria-label="Sign in page">
+          <img src="user.svg" alt="user icon" />
+        </a>
+        <div class="sign-btns">
+          <button type="button">Sign In</button>
+          <button type="button">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1 id="texte">
+        DECOUVREZ MES 3 ANNEES D'EXPERIENCE EN DEVELOPPEMENT <span id="mot">WEB</span>
+      </h1>
+
+      <section class="components">
+        <div class="bureau-img">
+          <img class="bureau" src="Bureau.png" alt="image ordinateur">
+        </div>
+        <div class="text">
+          <p>j'ai commencer le developpement web il y a 3 ans en 2020 depuis se temps j'ai apris plusieurs chose comme le CSS l'HTML les base de Javascript et une peux de PYTHON decouvrer mes projets dans la categorie "Portfolio" ou cliquez "<a class="here" href="portfolio.html">ici</a>"</p>
+        </div>
+      </section>
+    
+    </main>
+
+    <script src="script.js"></script>
+    <script src="slider-anim.js"></script>
+    <script src="typing.js"></script>
+  </body>
+
+  <!--TODO Ajouter les animation pour l'image et le text en bas  -->
+  <!--TODO faire la partie mobile de la page -->
+  <!--TODO corriger les animation sur mobile  -->
+  <!--TODO optimiser les animation des pages (rendre plus performante pour le navigateur et l'appareil d'utilisateur)  -->
+  <!--TODO ajouter un beau background image en fond pour la presentation du site -->
+</html>
